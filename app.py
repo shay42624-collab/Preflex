@@ -4,6 +4,8 @@ import openai
 
 openai.api_key = st.secrets["openai"]["api_key"]
 
+st.write("✅ App loaded successfully")
+
 st.set_page_config(page_title="Preflex AI", page_icon="📊")
 st.title("📊 Welcome to Preflex AI")
 
